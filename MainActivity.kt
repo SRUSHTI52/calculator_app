@@ -125,7 +125,15 @@ class MainActivity : AppCompatActivity() {
         }
 
         dot.setOnClickListener {
-            enter.text = enter.append(".").toString()
+            if (operator.isEmpty()){
+            if (!enter.text.contains(".")){
+            enter.append(".")}}
+            else{
+                if(!operand2.contains(".")){
+                    enter.append(".")
+                }
+            }
+
         }
     }
 }
