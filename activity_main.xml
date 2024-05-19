@@ -6,28 +6,30 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    android:background="#8E98DA"
+    android:background="#C7CCED"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/enter"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="65dp"
         android:layout_margin="8dp"
         android:gravity="end"
         android:hint="0"
         android:textColor="#03071E"
+        android:textColorHint="#03071E"
         android:textSize="32sp"
         android:fontFamily="@font/roboto_bold"/>
 
     <TextView
         android:id="@+id/ans"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="65dp"
         android:layout_margin="8dp"
         android:fontFamily="@font/roboto_bold"
         android:gravity="end"
         android:hint="0"
+        android:textColorHint="#03071E"
         android:textColor="#03071E"
         android:textSize="32sp" />
 
@@ -38,7 +40,7 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/add"
-            android:layout_width="70dp"
+            android:layout_width="65dp"
             android:layout_height="80dp"
             android:text="+"
             android:textColor="#FFFFFF"
@@ -51,7 +53,7 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/sub"
-            android:layout_width="70dp"
+            android:layout_width="65dp"
             android:layout_height="80dp"
             android:text="-"
             android:textColor="#FFFFFF"
@@ -64,20 +66,20 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/equal"
-            android:layout_width="70dp"
+            android:layout_width="65dp"
             android:layout_height="80dp"
             android:text="="
             android:textColor="#FFFFFF"
             android:textSize="24sp"
-            app:backgroundTint="#0C1547"
-            app:cornerRadius="16dp"
+            app:backgroundTint="#F63B00"
+            app:cornerRadius="34dp"
             android:elevation="4dp"
             android:layout_marginEnd="10dp"
-            app:rippleColor="@android:color/holo_blue_light" />
+            app:rippleColor="@android:color/holo_orange_dark" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/mul"
-            android:layout_width="70dp"
+            android:layout_width="65dp"
             android:layout_height="80dp"
             android:text="*"
             android:textColor="#FFFFFF"
@@ -90,7 +92,7 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/div"
-            android:layout_width="70dp"
+            android:layout_width="65dp"
             android:layout_height="80dp"
             android:text="/"
             android:textColor="#FFFFFF"
